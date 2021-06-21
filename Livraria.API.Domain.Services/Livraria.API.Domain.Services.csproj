@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Livraria.API.Domain.Models\Livraria.API.Domain.Models.csproj" />
+    <ProjectReference Include="..\Livraria.API.Infra.Repository\Livraria.API.Infra.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

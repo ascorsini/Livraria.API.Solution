@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Livraria.API.Domain.Models", "Livraria.API.Domain.Models", "{28D3AAB0-6EB2-4CCE-9FBA-06FA37436A52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Livraria.API.Infra.Repository", "Livraria.API.Infra.Repository", "{70AD5794-C7BC-4439-BD6D-3640E5065224}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Livraria.API.Presentation", "Livraria.API.Presentation", "{3F1F2A81-A48B-4E68-9869-B7ADFEB55828}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.API.Domain.Models", "Livraria.API.Domain.Models\Livraria.API.Domain.Models.csproj", "{D5AB0185-92EE-45C5-A2A3-14537FFBF3D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.API.Infra.Repository", "Livraria.API.Infra.Repository\Livraria.API.Infra.Repository.csproj", "{6BAF2821-AAC5-4B5A-A175-DFAA7097AA1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Livraria.API.Presentation", "Livraria.API.Presentation\Livraria.API.Presentation.csproj", "{4061E57A-4523-45DE-B126-1156464DB610}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5AB0185-92EE-45C5-A2A3-14537FFBF3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AB0185-92EE-45C5-A2A3-14537FFBF3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AB0185-92EE-45C5-A2A3-14537FFBF3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AB0185-92EE-45C5-A2A3-14537FFBF3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAF2821-AAC5-4B5A-A175-DFAA7097AA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAF2821-AAC5-4B5A-A175-DFAA7097AA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAF2821-AAC5-4B5A-A175-DFAA7097AA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAF2821-AAC5-4B5A-A175-DFAA7097AA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4061E57A-4523-45DE-B126-1156464DB610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4061E57A-4523-45DE-B126-1156464DB610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4061E57A-4523-45DE-B126-1156464DB610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4061E57A-4523-45DE-B126-1156464DB610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5AB0185-92EE-45C5-A2A3-14537FFBF3D0} = {28D3AAB0-6EB2-4CCE-9FBA-06FA37436A52}
+		{6BAF2821-AAC5-4B5A-A175-DFAA7097AA1B} = {70AD5794-C7BC-4439-BD6D-3640E5065224}
+		{4061E57A-4523-45DE-B126-1156464DB610} = {3F1F2A81-A48B-4E68-9869-B7ADFEB55828}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9107EE5A-6286-4684-811C-B1D1957A3F88}
+	EndGlobalSection
+EndGlobal
